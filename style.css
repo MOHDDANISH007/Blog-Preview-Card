@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(245,208,78);
+    min-height: 100vh;
+    position: relative;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font
+}
+.card{
+    background-color: white;
+    height: 450px;
+    width: 337px;
+    position: absolute;
+    margin: auto;
+    inset: 0px;
+    box-shadow: 10px 10px 4px 2px rgb(31, 30, 25);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.heading1{
+    width: 80px;
+    padding: 0.2em;
+    position: absolute;
+    top: 213px;
+    border-radius: 5px;
+    background-color: rgb(245,208,78);
+    font-weight: bold;
+}
+
+.para1{
+    position: absolute;
+    top: 250px;
+    text-align: center;
+}
+
+.heading2{
+    position: absolute;
+    top: 275px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.para2{
+    position: absolute;
+    top: 313px;
+    /* text-align: center; */
+}
+
+.lastImage{
+    position: absolute;
+    top: 385px;
+    text-align: center;
+}
+.para3{
+    position: absolute;
+    top: 392px;
+    left: 64px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.heading2:hover{
+    color: rgb(245,208,78);
+}
